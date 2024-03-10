@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import coming_soon from "@/public/coming_soon.png"
 
 export const links = [
   {
@@ -35,52 +36,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated with BSc. in Engineering Management",
+    location: "Reykjavík University, Iceland",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 3 years of studying. During my education, I was a member of the university's newspaper editorial board 2021-2022",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019 - 2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Graduated with BSc. in Computer Science",
+    location: "Reykjavík University, Iceland",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Decided to do a double degree programme where I added one year to earn a additional degree. I was on the Dean's list fall 2022 and my groups final project was a MESR analog with environmental mapping and simulation",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - 2023",
+  },
+  {
+    title: "Junior DevOps Developer",
+    location: "Copenhagen, Denmark",
+    description:
+      "I'm now a Junior DevOps developer at Søenderjysk Forsikring. I am responsible for building and deploying code across various environments and utilizing GitHub Actions for CI/CD. Additionally, assisting in trasitioning the company to a cloud-based platform",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
     date: "2021 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Coming Soon",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "",
+    tags: ["TBA", "TBA", "TBA", "TBA", "TBA"],
+    imageUrl: coming_soon,
   },
   {
-    title: "rmtDev",
+    title: "Coming Soon",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "",
+    tags: ["TBA", "TBA", "TBA", "TBA", "TBA"],
+    imageUrl: coming_soon,
   },
   {
-    title: "Word Analytics",
+    title: "Coming Soon",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "",
+    tags: ["TBA", "TBA", "TBA", "TBA", "TBA"],
+    imageUrl: coming_soon,
   },
 ] as const;
 
@@ -93,15 +94,13 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
+  "GitHub",
+  "Tailwind CSS",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
   "Python",
   "Django",
+  "Flask",
   "Framer Motion",
 ] as const;
