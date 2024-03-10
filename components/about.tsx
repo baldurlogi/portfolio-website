@@ -28,11 +28,11 @@ export default function About() {
         <p className='mb-3'>
             <span className="italic">What excites me most about programming</span> is the thrill of problem-solving. My experience lies in <span className="font-medium">
             React, Next.js, Node.js, TypeScript, and MongoDB
-            </span>. Currently, I'm <span className='font-medium'>seeking freelancing opportunities</span> to apply my skills and contribute to exciting projects. 
+            </span>. Currently, I&apos;m <span className='font-medium'>seeking freelancing opportunities</span> to apply my skills and contribute to exciting projects. 
         </p>
 
         <p>
-            <span className="italic">Outside of coding</span>, I find joy in CrossFit training, exploring fashion, discovering music, and spending quality time with friends. Cooking and baking bring me great joy, and I'm rediscovering my enjoyment for reading.
+            <span className="italic">Outside of coding</span>, I find joy in CrossFit training, exploring fashion, discovering music, and spending quality time with friends. Cooking and baking bring me great joy, and I&apos;m rediscovering my enjoyment for reading.
         </p>
     </motion.section>
   );
