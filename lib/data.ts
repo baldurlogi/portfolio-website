@@ -57,7 +57,7 @@ export const experiencesData = [
     description:
       "I'm now a Junior DevOps developer at Søenderjysk Forsikring. I am responsible for building and deploying code across various environments and utilizing GitHub Actions for CI/CD. Additionally, assisting in trasitioning the company to a cloud-based platform",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
