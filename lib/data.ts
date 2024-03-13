@@ -55,7 +55,7 @@ export const experiencesData = [
     title: "Junior DevOps Developer",
     location: "Copenhagen, Denmark",
     description:
-      "I'm now a Junior DevOps developer at Søenderjysk Forsikring. I am responsible for building and deploying code across various environments and utilizing GitHub Actions for CI/CD. Additionally, assisting in trasitioning the company to a cloud-based platform",
+      "I'm now a Junior DevOps developer at Søenderjysk Forsikring. I am responsible for building and deploying code across various environments and utilizing GitHub Actions for CI/CD. Additionally, assisting in transitioning the company to a cloud-based platform",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
   },

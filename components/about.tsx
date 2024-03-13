@@ -32,7 +32,7 @@ export default function About() {
         </p>
 
         <p>
-            <span className="italic">Outside of coding</span>, I find joy in CrossFit training, exploring fashion, discovering music, and spending quality time with friends. Cooking and baking bring me great joy, and I&apos;m rediscovering my enjoyment for reading.
+            <span className="italic">Outside of coding</span>, I find joy in CrossFit training, exploring fashion, cooking/baking, discovering music, and spending quality time with friends.
         </p>
     </motion.section>
   );
