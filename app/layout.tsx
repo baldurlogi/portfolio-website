@@ -11,7 +11,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: 'Baldur Logi | Portfolio',
-  description: 'Baldur Logi is a full-stack developer recently graduated from university',
+  description: 'Baldur Logi is a full-stack developer recently graduated from university, looking for freelance projects',
+  image: '/tumbnail_picture.png'
 }
 
 export default function RootLayout({
@@ -22,10 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <head>
-      <title>The Rock (1996)</title>
-        <meta property="og:title" content="Baldur Logi | Portfolio" />
-        <meta property="og:url" content="https://baldurlogi.vercel.app/" />
-        <meta property="og:image" content="@/public/tumbnail_picture.png" />
+        <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:image" content={metadata.image} />
+        <meta property="og:url" content="https://baldurlogi.vercel.app" /> 
       </head>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
