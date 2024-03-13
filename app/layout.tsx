@@ -21,7 +21,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
-      <meta property="og:image" content="/profile_picture_portfolio.png" />
+      <head>
+      <title>The Rock (1996)</title>
+        <meta property="og:title" content="Baldur Logi | Portfolio" />
+        <meta property="og:url" content="https://baldurlogi.vercel.app/" />
+        <meta property="og:image" content="@/public/tumbnail_picture.png" />
+      </head>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
