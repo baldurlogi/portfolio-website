@@ -61,8 +61,8 @@ export default function Intro() {
         >
             <span className="font-bold">Hello, I&apos;m Baldur Logi.</span> I&apos;m a{" "}
             <span className="font-bold">full-stack developer</span> with B.Sc. in{" "}
-            <span className="font-bold">Computer Science</span> and <span className="font-bold">Engineering Management</span>. I enjoy
-            making pretty <span className="underline">sites & apps</span> and currently looking for freelancing projects.
+            <span className="font-bold">Computer Science</span> and <span className="font-bold">Engineering Management</span>. 
+            I am currently looking for collaborations on <span className="underline">exciting projects</span>.
         </motion.h1>
 
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
