@@ -7,7 +7,7 @@ export default function Footer() {
             &copy; 2024 Baldur Logi. All rights reserved.
         </small>
         <p className='text-xs'>
-            <span className='font-semibold'>About this website:</span> build with React & Next.js (App router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, Vercel hosting.
+            <span className='font-semibold'>About this website:</span> Built with React & Next.js (App router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, Vercel hosting.
         </p>
     </footer>
   )

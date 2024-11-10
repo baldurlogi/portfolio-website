@@ -6,6 +6,7 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import coming_soon from "@/public/coming_soon.png"
+import membership_website from "@/public/membership_website.png"
 
 export const links = [
   {
@@ -52,10 +53,10 @@ export const experiencesData = [
     date: "2022 - 2023",
   },
   {
-    title: "Junior DevOps Developer",
+    title: "DevOps Developer",
     location: "Copenhagen, Denmark",
     description:
-      "I'm now a Junior DevOps developer at Søenderjysk Forsikring. I am responsible for building and deploying code across various environments and utilizing GitHub Actions for CI/CD. Additionally, assisting in transitioning the company to a cloud-based platform",
+      "I joined Forsia Forsikring with minimal DevOps experience and am now the lead DevOps Developer. My role focuses on optimizing deployment across environments using GitHub Actions, achieving a 95% reduction in package size and a 75% decrease in deployment time. I implemented a trunk-based development model and leveraged Kubernetes and ArgoCD for automation, enhancing scalability and reliability. As the primary contact for cloud partners and digital vendors, I strengthen cross-functional communication and support our shift to a cloud-based platform.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
   },
@@ -63,11 +64,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Coming Soon",
+    title: "Membership Website",
     description:
       "",
-    tags: ["TBA", "TBA", "TBA", "TBA", "TBA"],
-    imageUrl: coming_soon,
+    tags: ["React JS", "Tailwind CSS", "Bento Box", "Parallax Effects"],
+    imageUrl: membership_website,
   },
   {
     title: "Coming Soon",
@@ -103,4 +104,9 @@ export const skillsData = [
   "Django",
   "Flask",
   "Framer Motion",
+  "GitHub Actions",
+  "CI/CD",
+  "ArgoCD",
+  "Agile Development",
+  "DevOps"
 ] as const;
