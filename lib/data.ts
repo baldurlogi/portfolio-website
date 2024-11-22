@@ -7,6 +7,7 @@ import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import coming_soon from "@/public/coming_soon.png"
 import membership_website from "@/public/membership_website.png"
+import Dexta from "@/public/Dexta.png"
 
 export const links = [
   {
@@ -66,16 +67,16 @@ export const projectsData = [
   {
     title: "Membership Website",
     description:
-      "",
+      "Membership website for an AI chat app built with React JS",
     tags: ["React JS", "Tailwind CSS", "Bento Box", "Parallax Effects"],
     imageUrl: membership_website,
   },
   {
-    title: "Coming Soon",
+    title: "Renewed Dexta Website",
     description:
-      "",
-    tags: ["TBA", "TBA", "TBA", "TBA", "TBA"],
-    imageUrl: coming_soon,
+      "Renewed the look for Dexta Energy Technology Solutions with React JS",
+    tags: ["React JS", "Parallax Effects", "Swiper", "Google Maps API", "i18next"],
+    imageUrl: Dexta,
   },
   {
     title: "Coming Soon",
