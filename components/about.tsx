@@ -26,8 +26,8 @@ export default function About() {
             <span className="font-medium">full-stack web development</span> and <span className="font-medium">iOS development</span> with <span className='italic'>Swift</span>.{" "} Since then, I&apos;ve evolved into a <span className="font-medium">DevOps Developer</span> at Forsia Forsikring, where I lead initiatives in <span className="underline">deployment optimization</span>, <span className="underline">infrastructure automation</span>, and <span className="underline">cloud migration</span>, all while strengthening my skills in digital project management.
         </p>
         <p className='mb-3'>
-            <span className="italic">What excites me most about tech</span> is the thrill of problem-solving and potential to create impactful solutions. My technical experise now spans <span className='font-medium'>DevOps</span> practises as well as full-stack tools like <span className="font-medium">
-            React, Next.js, Node.js, TypeScript, and MongoDB
+            <span className="italic">What excites me most about tech</span> is the thrill of problem-solving and potential to create impactful solutions. My technical expertise now spans <span className='font-medium'>DevOps</span> practises as well as front-end tools like <span className="font-medium">
+            React, TypeScript, JavaScript and Vite
             </span>. I&apos;m currently <span className='font-medium'>open to freelancing</span> opportunities to bring my diverse skill set to exciting, impactful projects. 
         </p>
 

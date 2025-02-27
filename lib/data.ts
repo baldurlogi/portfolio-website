@@ -61,6 +61,14 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
   },
+  {
+    title: "Freelance Web Developer",
+    location: "Copenhagen, Denmark",
+    description:
+      "I started freelancing as a Web Developer driven by a passion for building up-to-date digital experiences that help businesses thrive online. Specializing in React.js, TypeScript, JavaScript, and Tailwind CSS, I focus on modernizing and optimizing websites for better performance and user engagement. My recent work involved redesigning an existing site to a reactive site with a mobile-first approach, improving performance, accessibility, and user engagement. I streamline front-end development by building scalable UI components and integrating third-party APIs, ensuring seamless functionality. By collaborating closely with clients, I translate business needs into interactive, high-performance web applications. Through clean, maintainable code and best practices in SEO and responsiveness, I help businesses enhance their online presence and user experience.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
+  },
 ] as const;
 
 export const projectsData = [
@@ -74,40 +82,32 @@ export const projectsData = [
   {
     title: "Renewed Dexta Website",
     description:
-      "Renewed the look for Dexta Energy Technology Solutions with React JS",
+      "Redesigned and modernized existing website with a responsive and mobile-first approach",
     tags: ["React JS", "Parallax Effects", "Swiper", "Google Maps API", "i18next"],
     imageUrl: Dexta,
   },
   {
     title: "Coming Soon",
-    description:
-      "",
+    description: "Professional portfolio",
     tags: ["TBA", "TBA", "TBA", "TBA", "TBA"],
     imageUrl: coming_soon,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
-  "Git",
-  "GitHub",
+  "JavaScript",
+  "TypeScript",
   "Tailwind CSS",
-  "MongoDB",
-  "Express",
+  "HTML",
+  "CSS",
+  "DevOps",
+  "Git",
   "PostgreSQL",
   "Python",
-  "Django",
-  "Flask",
-  "Framer Motion",
   "GitHub Actions",
   "CI/CD",
   "ArgoCD",
   "Agile Development",
-  "DevOps"
 ] as const;

@@ -60,9 +60,9 @@ export default function Intro() {
             animate={{ opacity: 1, y: 0 }}
         >
             <span className="font-bold">Hello, I&apos;m Baldur Logi </span> - a{" "}
-            <span className="font-bold">full-stack developer</span> and <span className="font-bold">DevOps specialist</span> with B.Sc. in{" "}
+            <span className="font-bold">DevOps </span> specialist and Freelance <span className="font-bold">Web Developer</span> with B.Sc. in{" "}
             <span className="font-bold">Computer Science</span> and <span className="font-bold">Engineering Management</span>. 
-            I am currently open to collaborations on <span className="underline">innovative projects</span> that push boundaries.
+            I am currently offering <span className="underline">web development service</span> for small businesses & personal portfolios.
         </motion.h1>
 
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
@@ -86,7 +86,7 @@ export default function Intro() {
 
            <a 
             className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10' 
-            href="/Baldur_resume_2024.pdf" 
+            href="/Baldur_CV.pdf" 
             download
            >
                 Download CV <HiDownload 
