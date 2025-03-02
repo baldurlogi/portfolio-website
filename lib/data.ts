@@ -110,4 +110,6 @@ export const skillsData = [
   "CI/CD",
   "ArgoCD",
   "Agile Development",
+  "Linux",
+  "Shell",
 ] as const;
