@@ -5,14 +5,17 @@ import ActiveSectionContextProvider from "@/context/active-section-context";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
-import { Toaster } from "react-hot-toast"; 
+import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: 'Baldur Logi | Portfolio',
   description: 'Baldur Logi is a full-stack developer recently graduated from university, looking for freelance projects',
-  image: '/tumbnail_picture.png'
+  image: '/tumbnail_picture.png',
+  keywords: 'web developer, devops engineer, react developer, fullstack developer, copenhagen, denmark, portfolio',
+  robots: 'index, follow',
+  charSet: 'utf-8',
 }
 
 export default function RootLayout({

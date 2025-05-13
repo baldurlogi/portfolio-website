@@ -54,14 +54,14 @@ export default function Intro() {
             </div>
         </div>
 
-        <motion.h1 
+        <motion.h1
             className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
         >
             <span className="font-bold">Hello, I&apos;m Baldur Logi </span> - a{" "}
-            <span className="font-bold">DevOps </span> specialist and Freelance <span className="font-bold">Web Developer</span> with B.Sc. in{" "}
-            <span className="font-bold">Computer Science</span> and <span className="font-bold">Engineering Management</span>. 
+            Freelance <span className="font-bold">Web Developer</span> and{" "}
+            <span className="font-bold">DevOps </span> specialist.
             I am currently offering <span className="underline">web development service</span> for small businesses & personal portfolios.
         </motion.h1>
 
@@ -72,8 +72,8 @@ export default function Intro() {
                 delay: 0.1,
             }}
         >
-           <Link 
-                href="#contact" 
+           <Link
+                href="#contact"
                 className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition'
                 onClick={() => {
                     setActiveSection("Contact")
