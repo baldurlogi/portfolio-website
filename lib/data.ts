@@ -99,6 +99,13 @@ export const projectsData = [
     tags: ["React JS", "Tailwind CSS", "Bento Box", "Parallax Effects"],
     imageUrl: membership_website,
   },
+  {
+    title: "Coming Soon",
+    description:
+      "TBA",
+    tags: ["TBA", "TBA", "TBA"],
+    imageUrl: coming_soon,
+  },
 ] as const;
 
 export const skillsData = [
