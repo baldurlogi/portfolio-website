@@ -39,20 +39,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated with BSc. in Engineering Management",
-    location: "Reykjavík University, Iceland",
+    title: "Freelance Web Developer",
+    location: "Copenhagen, Denmark",
     description:
-      "I graduated after 3 years of studying. During my education, I was a member of the university's newspaper editorial board 2021-2022",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019 - 2022",
-  },
-  {
-    title: "Graduated with BSc. in Computer Science",
-    location: "Reykjavík University, Iceland",
-    description:
-      "Decided to do a double degree programme where I added one year to earn a additional degree. I was on the Dean's list fall 2022 and my groups final project was a MESR analog with environmental mapping and simulation",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022 - 2023",
+      "I started freelancing as a Web Developer driven by a passion for building up-to-date digital experiences that help businesses thrive online. Specializing in React.js, TypeScript, JavaScript, and Tailwind CSS, I focus on modernizing and optimizing websites for better performance and user engagement. My recent work involved redesigning an existing site to a reactive site with a mobile-first approach, improving performance, accessibility, and user engagement. I streamline front-end development by building scalable UI components and integrating third-party APIs, ensuring seamless functionality. By collaborating closely with clients, I translate business needs into interactive, high-performance web applications. Through clean, maintainable code and best practices in SEO and responsiveness, I help businesses enhance their online presence and user experience.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
   },
   {
     title: "DevOps Developer",
@@ -63,12 +55,20 @@ export const experiencesData = [
     date: "2023 - present",
   },
   {
-    title: "Freelance Web Developer",
-    location: "Copenhagen, Denmark",
+    title: "Graduated with BSc. in Computer Science",
+    location: "Reykjavík University, Iceland",
     description:
-      "I started freelancing as a Web Developer driven by a passion for building up-to-date digital experiences that help businesses thrive online. Specializing in React.js, TypeScript, JavaScript, and Tailwind CSS, I focus on modernizing and optimizing websites for better performance and user engagement. My recent work involved redesigning an existing site to a reactive site with a mobile-first approach, improving performance, accessibility, and user engagement. I streamline front-end development by building scalable UI components and integrating third-party APIs, ensuring seamless functionality. By collaborating closely with clients, I translate business needs into interactive, high-performance web applications. Through clean, maintainable code and best practices in SEO and responsiveness, I help businesses enhance their online presence and user experience.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2024 - present",
+      "Decided to do a double degree programme where I added one year to earn a additional degree. I was on the Dean's list fall 2022 and my groups final project was a MESR analog with environmental mapping and simulation",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - 2023",
+  },
+  {
+    title: "Graduated with BSc. in Engineering Management",
+    location: "Reykjavík University, Iceland",
+    description:
+      "I graduated after 3 years of studying. During my education, I was a member of the university's newspaper editorial board 2021-2022",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2022",
   },
 ] as const;
 
