@@ -52,7 +52,7 @@ export const experiencesData = [
     description:
       "I joined Forsia Forsikring with minimal DevOps experience and am now the lead DevOps Developer. My role focuses on optimizing deployment across environments using GitHub Actions, achieving a 95% reduction in package size and a 75% decrease in deployment time. I implemented a trunk-based development model and leveraged Kubernetes and ArgoCD for automation, enhancing scalability and reliability. As the primary contact for cloud partners and digital vendors, I strengthen cross-functional communication and support our shift to a cloud-based platform.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - present",
+    date: "2023 - 2025",
   },
   {
     title: "Graduated with BSc. in Computer Science",
