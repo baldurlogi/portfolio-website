@@ -2,6 +2,9 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,7 +14,7 @@
   "dependencies": {
     "@react-email/components": "^0.0.15",
     "@react-email/tailwind": "^0.0.14",
-    "@types/node": "20.11.24",
+    "@types/node": "^22",
     "@types/react": "18.2.61",
     "@types/react-dom": "18.2.19",
     "autoprefixer": "10.4.18",
