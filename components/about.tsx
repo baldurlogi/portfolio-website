@@ -21,14 +21,12 @@ export default function About() {
         <SectionHeading>About me</SectionHeading>
         <p className='mb-3'>
             After completing dual B.Sc. degrees in{" "}
-            <span className="font-medium">Engineering management</span> and {" "} 
-            <span className="font-medium">Computer Science</span>, I embarked on a journey to Copenhagen to expand my horizons.  I began my journey with a coding bootcamp at <span className="italic">Codecademy</span>, where I delved into{" "} 
-            <span className="font-medium">full-stack web development</span> and <span className="font-medium">iOS development</span> with <span className='italic'>Swift</span>.{" "} Since then, I&apos;ve evolved into a <span className="font-medium">DevOps Developer</span> at Forsia Forsikring, where I played a part in <span className="underline">deployment optimization</span>, <span className="underline">infrastructure automation</span>, and <span className="underline">cloud migration</span>, all while strengthening my skills in digital project management.
+            <span className="font-medium">Engineering Management</span> and{" "}
+            <span className="font-medium">Computer Science</span>, I embarked on a journey to Copenhagen to expand my horizons. I began with a coding bootcamp at <span className="italic">Codecademy</span>, where I delved into{" "}
+            <span className="font-medium">full-stack web development</span> and <span className="font-medium">iOS development</span> with <span className='italic'>Swift</span>.{" "} I then evolved into a <span className="font-medium">DevOps Developer</span> at Forsia Forsikring, where I contributed to <span className="underline">deployment optimization</span>, <span className="underline">infrastructure automation</span>, and <span className="underline">cloud migration</span>. Today, I work as a <span className="font-medium">Software Engineer</span> at <span className="italic">Predicti</span>, building <span className="underline">data pipelines</span> and <span className="underline">cloud infrastructure</span> that power predictive insights for the Nordic finance sector.
         </p>
         <p className='mb-3'>
-            <span className="italic">What excites me most about tech</span> is the thrill of problem-solving and potential to create impactful solutions. My technical expertise now spans <span className='font-medium'>DevOps</span> practises as well as front-end tools like <span className="font-medium">
-            React, TypeScript, JavaScript, Tailwind CSS and Vite
-            </span>. I&apos;m currently <span className='font-medium'>open to freelancing</span> opportunities to bring my diverse skill set to exciting, impactful projects. 
+            <span className="italic">What excites me most about tech</span> is the thrill of problem-solving and the potential to create impactful solutions. My technical expertise spans <span className='font-medium'>data engineering, DevOps, and cloud infrastructure</span>, with hands-on experience in <span className="font-medium">Python, Kafka, Kubernetes, Terraform, and AWS</span>, as well as front-end tools like <span className="font-medium">React, TypeScript, and Tailwind CSS</span>. I&apos;m currently <span className='font-medium'>open to freelancing</span> opportunities to bring my diverse skill set to exciting projects.
         </p>
 
         <p>

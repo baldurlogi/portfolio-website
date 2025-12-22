@@ -39,6 +39,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Engineer @ Predicti",
+    location: "Copenhagen, Denmark",
+    description:
+      "I build production data pipelines that transform raw financial and external data into predictive insights for Nordic financial institutions. Using Python, I develop ETL applications that extract data from Danish and Swedish sources, transform them into structured events, and stream them through Kafka to power life event predictions. My work spans the full stack. From application development to infrastructure provisioning with Terraform, GitOps deployments via ArgoCD, and Kubernetes orchestration on AWS. I ensure pipeline reliability and performance using Docker, Grafana, and Prometheus across dev and production environments.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2025 - present",
+  },
+  {
     title: "Freelance Web Developer",
     location: "Copenhagen, Denmark",
     description:
@@ -47,7 +55,7 @@ export const experiencesData = [
     date: "2024 - present",
   },
   {
-    title: "DevOps Developer",
+    title: "DevOps Developer @ Forsia Forsikring",
     location: "Copenhagen, Denmark",
     description:
       "I joined Forsia Forsikring with minimal DevOps experience and am now the lead DevOps Developer. My role focuses on optimizing deployment across environments using GitHub Actions, achieving a 95% reduction in package size and a 75% decrease in deployment time. I implemented a trunk-based development model and leveraged Kubernetes and ArgoCD for automation, enhancing scalability and reliability. As the primary contact for cloud partners and digital vendors, I strengthen cross-functional communication and support our shift to a cloud-based platform.",
@@ -125,5 +133,12 @@ export const skillsData = [
   "Linux",
   "Shell scripting",
   "Vercel",
-  "Figma"
+  "Figma",
+  "Kafka",
+  "Docker",
+  "Kubernetes",
+  "Terraform",
+  "AWS",
+  "Grafana",
+  "Prometheus"
 ] as const;
