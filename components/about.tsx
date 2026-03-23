@@ -133,7 +133,7 @@ export default function About() {
           <div className="text-left">
             <h3 className="font-semibold text-lg mb-2">Beyond the Code</h3>
             <p>
-              When I'm not coding, I enjoy staying active, exploring fashion,
+              When I&apos;m not coding, I enjoy staying active, exploring fashion,
               cooking and baking, discovering new music, and spending quality
               time with friends and family.
             </p>
