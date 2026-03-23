@@ -96,7 +96,7 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/baldur-logi-gautason-52583a25b/"
           target="_blank"
-          aria-label="Baldur Logi's LinkedIn Profile"
+          aria-label="Baldur Logi&apos;s LinkedIn Profile"
         >
           <BsLinkedin />
         </a>
@@ -105,7 +105,7 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/BaldurLogi"
           target="_blank"
-          aria-label="Baldur Logi's GitHub Profile"
+          aria-label="Baldur Logi&apos;s GitHub Profile"
         >
           <FaGithubSquare />
         </a>
